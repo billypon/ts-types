@@ -1,0 +1,15 @@
+{
+  "name": "@billypon/ts-types",
+  "description": "some types for type-script",
+  "version": "0.1.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -rf dist && tsc -p .",
+    "postbuild": "bin/post-build",
+    "lint": "tslint -p ."
+  },
+  "devDependencies": {
+    "tslint": "^5.17.0",
+    "typescript": "^3.5.2"
+  }
+}
