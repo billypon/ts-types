@@ -1,7 +1,7 @@
 {
   "name": "@billypon/ts-types",
   "description": "some types for type-script",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "index.js",
   "scripts": {
     "build": "rm -rf dist && tsc -p .",
